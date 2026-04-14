@@ -10,7 +10,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-image: url(Fondo.png); 
+            background-image: url(/Fotos/Fondo.png); 
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -146,6 +146,64 @@
             .submenu { position: static; transform: none; }
             .grid-container { grid-template-columns: 1fr; }
         }
+        .admin-form-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px 0;
+    padding-bottom: 50px;
+}
+
+.form-card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 2px solid #002855;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+.form-card h2 {
+    color: #002855;
+    font-family: 'Arvo', serif;
+    margin-top: 0;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    color: #002855;
+    margin-bottom: 5px;
+}
+
+.input-group input, .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: sans-serif;
+    box-sizing: border-box; 
+}
+
+.btn-enviar {
+    width: 100%;
+    padding: 12px;
+    background-color: #002855;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-enviar:hover {
+    background-color: #004a99;
+}
     </style>
 </head>
 <body>
@@ -156,7 +214,7 @@
             <li class="dropdown">
                 <a id="btn-proyectos">Proyectos ▼</a>
                 <ul class="submenu" id="menu-proyectos">
-                    <li><a href="sociales2.html">Sociales</a></li>
+                    <li><a href="sociales.html">Sociales</a></li>
                     <li><a href="educativas.html">Educativas</a></li>
                     <li><a href="sensibilizacion.html">Sensibilización</a></li>
                     <li><a href="recaudacion.html">Recaudación</a></li>
@@ -171,55 +229,86 @@
 
     <div class="grid-container">
         <div class="card">
-            <div class="card-image" style="background-image: url('Adipa-sede-03.jpg');"></div>
+            <div class="card-image" style="background-image: url(/Fotos/Adipa-sede-03.jpeg);"></div>
             <div class="card-content">
                 <h3>TIENDA EN ASOCIACIÓN ADIPA</h3>
                 <p>Es una alianza de aprendizaje e inclusión donde alumnos de La Salle imparten talleres prácticos a usuarios de ADIPA para mejorar sus habilidades sociales y laborales.
+                    <h3>📍 La Salle Virlecha</h3>
                 </p>
             </div>
         </div>
 
         <div class="card">
-            <div class="card-image" style="background-image: url('alimentos-1024x682.jpg');"></div>
+            <div class="card-image" style="background-image: url(/Fotos/alimentos-1024x682.jpeg);"></div>
             <div class="card-content">
                 <h3>OPERACIÓN KILO</h3>
                 <p>La Operación Kilo en La Salle es una campaña solidaria de recogida de alimentos no perecederos organizada por los centros educativos para ayudar a familias y colectivos en situación de vulnerabilidad.</p>
+                <h3>📍 La Salle Sagrado Corazón </h3>
             </div>
         </div>
 
         <div class="card">
-            <div class="card-image" style="background-image: url(1IMG_3013-1536x2048.webp);"></div>
+            <div class="card-image" style="background-image: url(/Fotos/1IMG_3013-1536x2048.webp);"></div>
             <div class="card-content">
                 <h3>UNIRAID</h3>
                 <p>Antiguos alumnos del colegio recorrerán 2.400 km en un rally solidario por Marruecos para entregar 400 kg de material escolar donado por La Salle Bonanova en zonas necesitadas. El equipo, compuesto por 8 personas y 4 vehículos, atravesará antiguas rutas del París-Dakar a partir del 10 de febrero.</p>
+                <h3>📍 La Salle La Seu d'Urgell </h3>
             </div>
         </div>
 
         <div class="card">
-            <div class="card-image" style="background-image: url('20141215-I-Mercadillo-Solidario-XMas-La-Salle2.jpg');"></div>
+            <div class="card-image" style="background-image: url(/Fotos/20141215-I-Mercadillo-Solidario-XMas-La-Salle2.jpg);"></div>
             <div class="card-content">
                 <h3>MERCADO SOLIDARIO DE NAVIDAD</h3>
                 <p>Varios centros educativos de La Salle organizan mercadillos solidarios de Navidad como parte de sus campañas navideñas y actividades de voluntariado (PROYDE).</p>
+                <h3>📍 La Salle Mollerussa </h3>
             </div>
         </div>
 
         <div class="card">
-            <div class="card-image" style="background-image: url('img_37469.jpg');"></div>
+            <div class="card-image" style="background-image: url(/Fotos/img_37469.jpeg);"></div>
             <div class="card-content">
                 <h3>MERCADILLO SOLIDARIO PARA ONG</h3>
                 <p>Iniciativas educativas y benéficas, a menudo organizadas por alumnos, que recaudan fondos para proyectos de comercio justo, ayuda social y proyectos educativos en Líbano u otros países, frecuentemente celebrados entre enero y marzo</p>
+                <h3>📍 La Salle Virlecha</h3>
             </div>
         </div>
 
         <div class="card">
-            <div class="card-image" style="background-image: url('image006.jpg');"></div>
+            <div class="card-image" style="background-image: url(/Fotos/image006.jpg);"></div>
             <div class="card-content">
                 <h3>RUTA PEREGRINA</h3>
                 <p>La Ruta Peregrina de La Salle Sagrado Corazón (Madrid) es una experiencia educativa y espiritual organizada para alumnos de Formación Profesional. Se trata de un recorrido de convivencia que combina formación, historia y naturaleza, a menudo vinculado al Camino de Santiago o a rutas históricas madrileñas, fomentando valores lasalianos.</p>
+                <h3>📍 La Salle Sagrado Corazón </h3>
             </div>
         </div>
+   
     </div>
-
+    <div class="admin-form-container">
+        <div class="form-card">
+            <h2> ¿Quieres añadir un nuevo proyecto relacionado con las obras Sociales?</h2>
+            <p>Rellena los datos para que podamos añadirlo a la web.</p>
+            
+            <form action="https://formspree.io/f/TU_ID_AQUÍ" method="POST" class="new-project-form">
+                <div class="input-group">
+                    <label>Título del Proyecto:</label>
+                    <input type="text" name="titulo" placeholder="Ej: Recogida . . . " required>
+                </div>
+    
+                <div class="input-group">
+                    <label>Tu Correo de Contacto:</label>
+                    <input type="email" name="email" placeholder="tu@email.com" required>
+                </div>
+    
+                <div class="input-group">
+                    <label>Descripción detallada:</label>
+                    <textarea name="descripcion" rows="4" placeholder="Explica de qué trata la acción..." required></textarea>
+                </div>
+    
+                <button type="submit" class="btn-enviar">Enviar Propuesta</button>
+            </form>
+        </div>
+        
     <script>
         const btnProyectos = document.getElementById('btn-proyectos');
         const menuProyectos = document.getElementById('menu-proyectos');
